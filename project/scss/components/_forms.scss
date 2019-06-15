@@ -1,0 +1,26 @@
+.form__label--hidden{
+    display: none;
+}
+
+.form__input{
+    display: block;
+    margin: 0 auto;
+    padding: mymargin(15px) mymargin(50px) mymargin(21px) mymargin(30px);
+    width: 65%;
+    text-align: start;
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-bottom: 5px solid $special-color;
+    &[placeholder]{
+        font-weight: bold;
+    }
+}
+
+form.form{
+    @include mq{
+        margin-top: 5%;
+    }
+}
+
+

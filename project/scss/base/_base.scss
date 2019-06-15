@@ -1,0 +1,17 @@
+
+*{	
+	
+	font-style: $myfont;
+	color: $myfont-color;
+	font-size:2vh;
+	margin: $margin-top-bottom mymargin(30px);
+	@include mq {
+            margin: $margin-top-bottom mymargin(50px); 
+        }
+}
+
+a{
+	text-decoration: none;
+}
+
+

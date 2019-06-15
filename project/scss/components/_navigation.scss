@@ -1,0 +1,30 @@
+
+.nav{ text-align: center;
+     @include mq{
+      display: flex;
+      flex-direction: row;
+      width: 100%;  
+      text-align: center;    
+      
+       };
+
+        }
+
+.nav__item{
+  margin: 10px 39px;
+  height:50px;
+  padding:5px;
+  border-radius: 15px;
+ 
+  list-style-type: none;
+  font-size: 1.5rem;
+   &:hover{
+  background-color: $nav-onhover;
+     }
+     &:hover a{
+      color: white;
+    }
+  }
+
+
+

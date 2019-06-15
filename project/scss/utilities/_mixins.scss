@@ -1,0 +1,31 @@
+// MEDIA QUERY  //
+@mixin mq($break:desktop) {
+  @if $break == 'mobile' {
+      @media (max-width: $small) {
+          @content;
+      }
+  }
+  @else if $break == 'desktop' {
+      @media (min-width: $breakingpoint) {
+          @content;
+      }
+  }
+}
+ 
+
+  @mixin ownbuttonstyle($object) {
+	@each $style, $color in $object {
+			&--#{$style}{
+					background-color: #{$color};
+						}
+					}
+				}
+
+@mixin gridsystem($object) {
+	@each $col, $color in $object {
+		&#{$col}{
+				background-color: #{$color};
+				@extend %border-style; 
+				}
+		}
+}

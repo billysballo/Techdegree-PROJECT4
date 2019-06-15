@@ -1,0 +1,47 @@
+
+//LOGO
+.img{
+	display: inline-block;
+    margin: auto;
+    text-align: center;
+    &--avatar{
+       display: block;
+       margin: auto;
+       padding-bottom: 10px;
+       width: 50%;
+            @include mq{
+                width: 60%;
+            }
+            @include mq(small){
+                display: block;
+                text-align: center;
+                margin:auto;
+            }
+    }
+
+    &--frame{
+       display: block;
+        border: 1px solid $myfont-color;
+        padding: 10px;
+        margin: auto;
+        overflow: hidden;
+        
+            @include mq {
+                width: 90%;
+                margin-right: -50px;
+            }
+            @include mq(mobile){
+                display: block;
+                width: 40%;
+                text-align: center;
+                margin:auto;
+            }
+    }
+}
+@include mq {
+.grid__col--6> .img--avatar{
+   width:50%;
+   margin-right: 10px;
+   margin-bottom: 50px;}
+}
+

@@ -1,0 +1,30 @@
+.btn{ 
+    &{
+        @include ownbuttonstyle($buttons);
+
+    }
+}
+
+
+
+
+@each $buttonstyle, $color in $buttons {
+    .btn--#{$buttonstyle}{
+        @extend %button-style;
+        @extend %border-style;
+      @include mq{
+        text-transform: uppercase;
+        
+        width: 53%;
+        margin: 8px 40px;}
+    
+        }
+    }
+
+[value=Login] {
+    @include mq {
+       display: block;
+        width: 70%;
+        margin: 3% 15%;
+    }
+}

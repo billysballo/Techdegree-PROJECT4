@@ -1,0 +1,3 @@
+@function mymargin($value, $view: $max-width) {
+    @return ($value / $view) * 100%;
+};

@@ -1,0 +1,43 @@
+.card {
+    display:flex; 
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.headline{
+
+    &--primary{
+        color: $special-color;
+        margin: mymargin(68px) mymargin(100px);
+    }
+
+    &--secondary{
+        color: $myfont-color;
+        margin: mymargin(137px) 0 0 mymargin(79px);
+        font-weight: normal;
+            @include mq {
+                margin: 3% 5%;
+            }
+    }
+    
+}
+
+.link{
+    color: $special-color;
+    font-weight: bold;
+}
+
+
+.blockquote{
+    font-style: italic;
+    padding: 15px;
+    color: $myfont-color;
+    border-left: 7px solid $special-color;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    margin: 10px mymargin(200px) 0 mymargin(95px);
+        @include mq {
+              margin: mymargin(22px) mymargin(100px) mymargin(33px) mymargin(100px);
+        }
+}

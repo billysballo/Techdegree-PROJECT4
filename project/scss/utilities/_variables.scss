@@ -1,0 +1,54 @@
+
+//GENERAL
+
+
+$myfont: sans-serif ;  
+$myfont-color: #616161;
+$margin-top-bottom:5px;
+$base: #58E1C1;
+$gutter:10px;
+
+// CONTENT STRETCH CONTROL //
+$max-width: 1200px;
+
+//FOR MEDIA QUERY
+$breakingpoint: 768px;
+$small: 550px;
+
+$device: (
+  'mobile': 767px,
+  'desktop': 768px, 
+	);
+
+
+//Nav
+$li-nostatus: white;
+$nav-onhover: darken($base, 5%);
+
+//TYPO
+$special-color: darken($base, 5%);
+
+
+
+// COLORS //
+$buttons: (
+    'default': rgb(81, 221, 252),
+    'success': rgb(99, 204, 68),
+    'error': rgb(228, 117, 122),
+    'warning': rgb(253, 120, 89),
+    'info': rgb(146, 123, 201),
+);
+
+$grid-colors: (
+    "--12": rgb(128, 232, 180),
+    "--8" : rgb(253, 159, 129),
+    "--7" : rgb(236, 159, 161),
+    "--6" : rgb(63, 171, 202),
+    "--5" : rgb(144, 217, 136),
+    "--4" : rgb(126, 225, 253),
+    "--3" : rgb(238, 178, 235),
+    );
+
+
+
+
