@@ -555,7 +555,7 @@ template {
 }
 @media (min-width: 768px) {
   .headline--secondary {
-    margin: 3% 5%;
+    margin: 3% 10%;
   }
 }
 
