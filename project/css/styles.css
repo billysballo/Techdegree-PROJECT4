@@ -390,40 +390,45 @@ template {
 @media (min-width: 768px) {
   .btn--default {
     text-transform: uppercase;
-    width: 53%;
-    margin: 8px 40px;
+    display: inline-block;
+    width: 15%;
+    margin: 0% 2.2%;
   }
 }
 
 @media (min-width: 768px) {
   .btn--success {
     text-transform: uppercase;
-    width: 53%;
-    margin: 8px 40px;
+    display: inline-block;
+    width: 15%;
+    margin: 0% 2.2%;
   }
 }
 
 @media (min-width: 768px) {
   .btn--error {
     text-transform: uppercase;
-    width: 53%;
-    margin: 8px 40px;
+    display: inline-block;
+    width: 15%;
+    margin: 0% 2.2%;
   }
 }
 
 @media (min-width: 768px) {
   .btn--warning {
     text-transform: uppercase;
-    width: 53%;
-    margin: 8px 40px;
+    display: inline-block;
+    width: 15%;
+    margin: 0% 2.2%;
   }
 }
 
 @media (min-width: 768px) {
   .btn--info {
     text-transform: uppercase;
-    width: 53%;
-    margin: 8px 40px;
+    display: inline-block;
+    width: 15%;
+    margin: 0% 2.2%;
   }
 }
 
