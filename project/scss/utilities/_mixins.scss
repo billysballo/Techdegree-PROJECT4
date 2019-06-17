@@ -29,3 +29,13 @@
 				}
 		}
 }
+
+@mixin  flex-box-desktop($break:desktop){
+@if $break == 'desktop'{
+			@media (min-width: $breakingpoint){
+								display:flex;
+								flex-direction:row;
+								@content;
+							}
+	}
+}

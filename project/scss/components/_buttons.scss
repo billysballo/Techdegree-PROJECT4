@@ -5,9 +5,6 @@
     }
 }
 
-
-
-
 @each $buttonstyle, $color in $buttons {
     .btn--#{$buttonstyle}{
         @extend %button-style;
@@ -19,7 +16,7 @@
     margin: 0% 2.2%;
                 
         }
-    }
+    }}
 
 [value=Login] {
     @include mq {

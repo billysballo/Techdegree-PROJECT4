@@ -1,7 +1,7 @@
 
 *{	
 	
-	font-style: $myfont;
+	font-family: $myfont;
 	color: $myfont-color;
 	font-size:2vh;
 	margin: $margin-top-bottom mymargin(30px);
@@ -12,6 +12,7 @@
 
 a{
 	text-decoration: none;
+	font-size: 1.5em;
 }
 
 

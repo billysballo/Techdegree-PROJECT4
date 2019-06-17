@@ -1,6 +1,5 @@
 .card {
-    display:flex; 
-    flex-direction:row;
+    @include flex-box-desktop;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
@@ -26,6 +25,8 @@
 .link{
     color: $special-color;
     font-weight: bold;
+    font-size:initial;
+    margin:0px;
 }
 
 
