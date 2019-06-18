@@ -8,6 +8,7 @@
   border-radius: 10px;
   font-size: 14px;
   padding: 2%;
+  text-transform: uppercase;
 }
 
 .headline--secondary:last-of-type ~ .grid__row .grid__col--3, .headline--secondary:last-of-type ~ .grid__row .grid__col--4, .headline--secondary:last-of-type ~ .grid__row .grid__col--5, .headline--secondary:last-of-type ~ .grid__row .grid__col--6, .headline--secondary:last-of-type ~ .grid__row .grid__col--7, .headline--secondary:last-of-type ~ .grid__row .grid__col--8, .headline--secondary:last-of-type ~ .grid__row .grid__col--12, .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
@@ -31,6 +32,15 @@
 a {
   text-decoration: none;
   font-size: 1.5em;
+}
+
+p {
+  margin: 0 2.5%;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 3.3333333333%;
+  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -388,48 +398,88 @@ template {
   background-color: #927bc9;
 }
 
+@media (max-width: 630px) {
+  .btn--default {
+    width: 90%;
+    height: 8vh;
+  }
+}
 @media (min-width: 768px) {
   .btn--default {
     text-transform: uppercase;
     display: inline-block;
-    width: 15%;
-    margin: 0% 2.2%;
+    width: 16%;
+    margin: 0% 1.2%;
+    height: 7vh;
+    padding: 5px;
   }
 }
 
+@media (max-width: 630px) {
+  .btn--success {
+    width: 90%;
+    height: 8vh;
+  }
+}
 @media (min-width: 768px) {
   .btn--success {
     text-transform: uppercase;
     display: inline-block;
-    width: 15%;
-    margin: 0% 2.2%;
+    width: 16%;
+    margin: 0% 1.2%;
+    height: 7vh;
+    padding: 5px;
   }
 }
 
+@media (max-width: 630px) {
+  .btn--error {
+    width: 90%;
+    height: 8vh;
+  }
+}
 @media (min-width: 768px) {
   .btn--error {
     text-transform: uppercase;
     display: inline-block;
-    width: 15%;
-    margin: 0% 2.2%;
+    width: 16%;
+    margin: 0% 1.2%;
+    height: 7vh;
+    padding: 5px;
   }
 }
 
+@media (max-width: 630px) {
+  .btn--warning {
+    width: 90%;
+    height: 8vh;
+  }
+}
 @media (min-width: 768px) {
   .btn--warning {
     text-transform: uppercase;
     display: inline-block;
-    width: 15%;
-    margin: 0% 2.2%;
+    width: 16%;
+    margin: 0% 1.2%;
+    height: 7vh;
+    padding: 5px;
   }
 }
 
+@media (max-width: 630px) {
+  .btn--info {
+    width: 90%;
+    height: 8vh;
+  }
+}
 @media (min-width: 768px) {
   .btn--info {
     text-transform: uppercase;
     display: inline-block;
-    width: 15%;
-    margin: 0% 2.2%;
+    width: 16%;
+    margin: 0% 1.2%;
+    height: 7vh;
+    padding: 5px;
   }
 }
 
@@ -498,7 +548,7 @@ template {
     margin-right: 70px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 630px) {
   .img--frame {
     display: block;
     width: 40%;

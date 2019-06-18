@@ -17,3 +17,10 @@ a{
 }
 
 
+p{
+	
+	margin: 0 mymargin(30px); 
+        @include mq {
+            margin: 0 mymargin(40px); 
+        }
+}
