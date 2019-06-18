@@ -19,12 +19,12 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   color: #616161;
-  font-size: 2vh;
-  margin: 5px 2.5%;
+  font-size: 3vh;
+  margin: 2.5%;
 }
 @media (min-width: 768px) {
   * {
-    margin: 5px 4.1666666667%;
+    margin: 5px 1.6666666667%;
   }
 }
 
@@ -433,11 +433,14 @@ template {
   }
 }
 
+[value=Login] {
+  text-transform: uppercase;
+  width: 80%;
+}
 @media (min-width: 768px) {
   [value=Login] {
     display: block;
-    width: 70%;
-    margin: 3% 15%;
+    margin: 3% 10%;
   }
 }
 
@@ -447,7 +450,7 @@ template {
 
 .form__input {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 1.25% 4.1666666667% 1.75% 2.5%;
   width: 65%;
   text-align: start;
@@ -479,7 +482,7 @@ template {
 }
 @media (min-width: 768px) {
   .img--avatar {
-    width: 60%;
+    width: 40%;
   }
 }
 .img--frame {
@@ -491,8 +494,8 @@ template {
 }
 @media (min-width: 768px) {
   .img--frame {
-    width: 90%;
-    margin-right: -50px;
+    width: 70%;
+    margin-right: 70px;
   }
 }
 @media (max-width: 550px) {
@@ -504,13 +507,6 @@ template {
   }
 }
 
-@media (min-width: 768px) {
-  .grid__col--6 > .img--avatar {
-    width: 50%;
-    margin-right: 10px;
-    margin-bottom: 50px;
-  }
-}
 .nav {
   text-align: center;
 }
@@ -524,8 +520,9 @@ template {
 
 .nav__item {
   margin: 4.5833333333% auto;
-  padding: 5px 10px;
-  border-radius: 15px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 2vh;
   list-style-type: none;
 }
 .nav__item:hover {

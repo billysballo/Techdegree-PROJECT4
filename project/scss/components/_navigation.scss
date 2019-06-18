@@ -11,8 +11,9 @@
 
 .nav__item{
   margin: mymargin(55px) auto;
-  padding:5px 10px;
-  border-radius: 15px;
+  padding:15px 10px;
+  border-radius: 5px;
+  font-size:2vh;
  
   list-style-type: none;
    &:hover{

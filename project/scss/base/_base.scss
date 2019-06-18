@@ -3,10 +3,11 @@
 	
 	font-family: $myfont;
 	color: $myfont-color;
-	font-size:2vh;
-	margin: $margin-top-bottom mymargin(30px);
+	font-size:3vh;
+	margin: mymargin(30px);
+
 	@include mq {
-            margin: $margin-top-bottom mymargin(50px); 
+            margin: $margin-top-bottom mymargin(20px); 
         }
 }
 
